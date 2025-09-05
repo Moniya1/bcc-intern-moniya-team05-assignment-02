@@ -206,16 +206,16 @@ span{
 .contact-form button:hover {
     opacity: 0.9;
 }
-.project-container {
+.project-cont {
     max-width: 800px;
     margin: auto;
 }
 
-.experience-section, .projects-section {
+.ex-section, .projects-section {
     margin-bottom: 40px;
 }
 
-.experience-item, .project-item {
+.ex-item, .project-item {
     display: flex;
     align-items: center;
     gap: 10px;
