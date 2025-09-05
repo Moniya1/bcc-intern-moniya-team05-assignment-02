@@ -1,0 +1,238 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background-color:#D3DAD9;
+    color:#222;
+
+}
+header{
+background:#715A5A ;
+padding:15px 50px;
+border:5px solid;
+
+}
+.moniya a{
+    margin:0 50px;
+    font-size:20px;
+    font-weight: bold;
+    transition:0.3s;
+    background-color:whitesmoke;
+    margin-left:170px;
+    
+}
+.moniya a:hover{
+    color:#FFD580;
+
+}
+ 
+.contact-btn{
+    background-color: aliceblue;
+    padding:8px 15px;
+    border-radius: 5px;
+    color:#333;
+    font-weight:bolod;
+    margin-left:250px;
+}
+.moniya h{
+    margin-left:10px;
+    text-shadow:5px 5px 5px;
+    font-size: 30px;
+    color:whitesmoke;
+    animation-name:h-text;
+    animation-duration:3s;
+
+    
+}
+@keyframes h-text{
+    from{
+font-size: 30px;
+    }
+    to{
+font-size: 40px;
+    }
+
+}
+.moniya{
+background-color:#715A5A;
+
+}
+.containers{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    max-width: 500px;
+    gap:10px;
+    margin-top:20px;
+    padding:50px 100px;
+    border-radius: 15px;
+    color:black;
+    margin-left:200px;
+    height:600px;
+    width:auto;
+    
+    
+}
+.text h1{
+    text-shadow:none;
+    margin:0 0 auto;
+    font-size:40px;
+    color:black;
+    margin-bottom:20px;
+
+    
+}
+
+.text{
+    text-align: left;
+    white-space: nowrap;
+}
+.text h2{
+    margin:0 0 10px;
+    font-size:30px;
+    color:#3B0764;
+
+}
+.text p{
+    font-size:28px;
+    color:#3B0764;
+    line-break: normal;
+    
+}
+.image img{
+    max-width:280px;
+    width:100%;
+    border-radius:15px;
+    border:3px solid#333;
+    margin-left:500px;
+    
+}
+.containers{
+    flex-direction: row;
+    text-align: center;
+    gap:5px;
+
+}
+.image{
+    text-align:center;
+}
+
+span{
+    color:#fff;
+}
+.skills {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.skills h2 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #333;
+}
+.pyramid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 25px 35px;
+  min-width: 130px;
+  color: white;
+  text-align: center;
+  transition: transform 0.4s, box-shadow 0.4s, background 1.5s;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.card i {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+.gradient1 { background: linear-gradient(45deg, #ff6a00, #ee0979); }
+.gradient2 { background: linear-gradient(45deg, #00f260, #0575e6); }
+.gradient3 { background: linear-gradient(45deg, #f7971e, #ffd200); }
+.gradient4 { background: linear-gradient(45deg, #6a11cb, #2575fc); }
+.gradient5 { background: linear-gradient(45deg, #f953c6, #b91d73); }
+.gradient6 { background: linear-gradient(45deg, #43cea2, #185a9d); }
+.gradient7 { background: linear-gradient(45deg, #ff512f, #dd2476); }
+.gradient8 { background: linear-gradient(45deg, #1fa2ff, #12d8fa); }
+.card:hover {
+  transform: scale(1.15);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+  background-position: right center;
+}
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    display: block;
+    width: 500px;
+    box-sizing: border-box;
+    max-height: 400px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 12px;
+    background: linear-gradient(45deg, #715A5A,#ccc );
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    opacity: 0.9;
+}
+.project-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.experience-section, .projects-section {
+    margin-bottom: 40px;
+}
+
+.experience-item, .project-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.icon {
+    font-size: 24px;
+    color: #715A5A;
+}
+
+.project-link {
+    display: inline-block;
+    margin-left: 34px;
+    text-decoration: none;
+    color: #fff;
+    background: #715A5A;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
