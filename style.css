@@ -3,6 +3,9 @@ body{
     font-family:Arial, sans-serif;
     background-color:#D3DAD9;
     color:#222;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
 
 }
 header{
@@ -60,7 +63,7 @@ background-color:#715A5A;
     display:flex;
     justify-content: space-between;
     align-items:center;
-    max-width: 500px;
+    max-width: 1200px;
     gap:10px;
     margin-top:20px;
     padding:50px 100px;
@@ -68,7 +71,8 @@ background-color:#715A5A;
     color:black;
     margin-left:200px;
     height:600px;
-    width:auto;
+    width:90%;
+    margin:0 auto;
     
     
 }
@@ -99,11 +103,11 @@ background-color:#715A5A;
     
 }
 .image img{
-    max-width:280px;
+    max-width:200px;
     width:100%;
     border-radius:15px;
     border:3px solid#333;
-    margin-left:500px;
+    margin-left:400px;
     
 }
 .containers{
